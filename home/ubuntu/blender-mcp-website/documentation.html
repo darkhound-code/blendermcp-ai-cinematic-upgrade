@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation - BlenderMCP Ultimate Cinematic Upgrade</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="BlenderMCP Ultimate Logo">
+                <span>BlenderMCP Ultimate</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="documentation.html" class="active">Documentation</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="documentation-main">
+        <!-- Documentation Hero -->
+        <section class="page-hero">
+            <div class="page-hero-content">
+                <h1>Documentation</h1>
+                <p>Comprehensive guides and references for BlenderMCP Ultimate Cinematic Upgrade.</p>
+            </div>
+        </section>
+
+        <div class="documentation-container">
+            <!-- Documentation Sidebar -->
+            <aside class="documentation-sidebar">
+                <div class="sidebar-search">
+                    <input type="text" id="doc-search" placeholder="Search documentation...">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                
+                <nav class="sidebar-nav">
+                    <ul>
+                        <li>
+                            <a href="#getting-started" class="sidebar-nav-item active">Getting Started</a>
+                            <ul class="sidebar-subnav">
+                                <li><a href="#installation">Installation</a></li>
+                                <li><a href="#quick-start">Quick Start Guide</a></li>
+                                <li><a href="#user-interface">User Interface</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#scene-setup-docs" class="sidebar-nav-item">Scene Setup & Assets</a>
+                            <ul class="sidebar-subnav">
+                                <li><a href="#mixamo-integration">Mixamo Integration</a></li>
+                                <li><a href="#marketplace-integrations">Marketplace Integrations</a></li>
+                                <li><a href="#hdri-lighting">HDRI Lighting</a></li>
+                                <li><a href="#procedural-environments">Procedural Environments</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#character-animation-docs" class="sidebar-nav-item">Character Animation</a>
+                            <ul class="sidebar-subnav">
+                                <li><a href="#auto-rigging">Auto-Rigging</a></li>
+                                <li><a href="#animation-retargeting">Animation Retargeting</a></li>
+                                <li><a href="#ikfk-switching">IK/FK Switching</a></li>
+                                <li><a href="#keyframe-generation">Keyframe Generation</a></li>
+                                <li><a href="#cinematic-camera">Cinematic Camera</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#physics-vfx-docs" class="sidebar-nav-item">Physics & VFX</a>
+                            <ul class="sidebar-subnav">
+                                <li><a href="#cloth-physics">Cloth Physics</a></li>
+                                <li><a href="#hair-physics">Hair Physics</a></li>
+                                <li><a href="#rigid-body-physics">Rigid Body Physics</a></li>
+                                <li><a href="#particle-effects">Particle Effects</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#rendering-docs" class="sidebar-nav-item">Rendering</a>
+                            <ul class="sidebar-subnav">
+                                <li><a href="#render-engine">Render Engine Management</a></li>
+                                <li><a href="#post-processing">Post-Processing</a></li>
+                                <li><a href="#multi-camera">Multi-Camera Rendering</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#progress-tracking-docs" class="sidebar-nav-item">Progress Tracking</a>
+                            <ul class="sidebar-subnav">
+                                <li><a href="#progress-monitoring">Progress Monitoring</a></li>
+                                <li><a href="#performance-optimization">Performance Optimization</a></li>
+                                <li><a href="#error-handling">Error Handling</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#command-reference" class="sidebar-nav-item">Command Reference</a>
+                        </li>
+                        <li>
+                            <a href="#api-reference" class="sidebar-nav-item">API Reference</a>
+                        </li>
+                        <li>
+                            <a href="#troubleshooting" class="sidebar-nav-item">Troubleshooting</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="sidebar-download">
+                    <a href="docs/blendermcp-ultimate-docs.pdf" class="btn btn-secondary">
+                        <i class="fas fa-file-pdf"></i> Download PDF
+                    </a>
+                </div>
+            </aside>
+
+            <!-- Documentation Content -->
+            <div class="documentation-content">
+                <!-- Getting Started -->
+                <section id="getting-started" class="doc-section">
+                    <h2>Getting Started</h2>
+                    
+                    <div id="installation" class="doc-subsection">
+                        <h3>Installation</h3>
+                        <p>Follow these steps to install BlenderMCP Ultimate Cinematic Upgrade:</p>
+                        
+                        <h4>Requirements</h4>
+                        <ul>
+                            <li>Blender 2.83 or newer</li>
+                            <li>Python 3.7 or newer</li>
+                            <li>Internet connection for asset downloading</li>
+                        </ul>
+                        
+                        <h4>Installation Steps</h4>
+                        <ol>
+                            <li>Download the latest release from the <a href="download.html">Download page</a> or <a href="https://github.com/yourusername/blender-mcp-ultimate/releases">GitHub Releases</a>.</li>
+                            <li>Open Blender and go to Edit > Preferences > Add-ons.</li>
+                            <li>Click "Install..." and select the downloaded ZIP file.</li>
+                            <li>Enable the addon by checking the box next to "AI: BlenderMCP Ultimate".</li>
+                        </ol>
+                        
+                        <div class="doc-image">
+                            <img src="images/installation.jpg" alt="Installation Screenshot">
+                            <p>The Blender Add-ons preferences panel showing BlenderMCP Ultimate installed and enabled.</p>
+                        </div>
+                        
+                        <div class="doc-note">
+                            <h4>Note</h4>
+                            <p>If you encounter any issues during installation, please check the <a href="#troubleshooting">Troubleshooting</a> section or contact support.</p>
+                        </div>
+                    </div>
+                    
+                    <div id="quick-start" class="doc-subsection">
+                        <h3>Quick Start Guide</h3>
+                        <p>Get started with BlenderMCP Ultimate in just a few steps:</p>
+                        
+                        <ol>
+                            <li>Open Blender and create a new scene.</li>
+                            <li>Open the BlenderMCP Ultimate panel in the sidebar (N key).</li>
+                            <li>Enter your API key in the settings tab (if required).</li>
+                            <li>Enter a text prompt describing the cinematic sequence you want to create.</li>
+                            <li>Click "Generate Cinematic Sequence".</li>
+                            <li>Wait for the AI to create your sequence.</li>
+                        </ol>
+                        
+                        <div class="doc-video">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Quick Start Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    
+                    <div id="user-interface" class="doc-subsection">
+                        <h3>User Interface</h3>
+                        <p>The BlenderMCP Ultimate panel is divided into several tabs:</p>
+                        
+                        <div class="doc-image">
+                            <img src="images/ui-overview.jpg" alt="UI Overview">
+                            <p>Overview of the BlenderMCP Ultimate panel in Blender's sidebar.</p>
+                        </div>
+                        
+                        <h4>Main Tab</h4>
+                        <p>The main tab provides a simple interface for creating complete cinematic sequences from text prompts. Enter your description and click "Generate" to create a sequence.</p>
+                        
+                        <h4>Scene Setup Tab</h4>
+                        <p>This tab contains tools for importing assets and creating environments. You can search for assets, apply HDRI lighting, and generate procedural environments.</p>
+                        
+                        <h4>Animation Tab</h4>
+                        <p>The animation tab provides tools for rigging characters, creating animations, and setting up cameras. You can generate animations from text descriptions or use the manual animation tools.</p>
+                        
+                        <h4>Physics & VFX Tab</h4>
+                        <p>This tab contains tools for adding physics simulations and visual effects to your scene. You can add cloth, hair, rigid body physics, and particle effects.</p>
+                        
+                        <h4>Rendering Tab</h4>
+                        <p>The rendering tab provides tools for configuring render settings and post-processing effects. You can select render engines, apply post-processing effects, and set up multi-camera rendering.</p>
+                        
+                        <h4>Settings Tab</h4>
+                        <p>The settings tab allows you to configure API keys, performance settings, and other preferences.</p>
+                    </div>
+                </section>
+                
+                <!-- Command Reference Preview -->
+                <section id="command-reference" class="doc-section">
+                    <h2>Command Reference</h2>
+                    <p>BlenderMCP Ultimate provides a command-based system for accessing all features programmatically. This section provides a complete reference for all available commands.</p>
+                    
+                    <div class="doc-subsection">
+                        <h3>Command Structure</h3>
+                        <p>Commands in BlenderMCP Ultimate follow a hierarchical structure:</p>
+                        
+                        <div class="doc-code">
+                            <pre><code>module.submodule.function</code></pre>
+                        </div>
+                        
+                        <p>For example:</p>
+                        
+                        <div class="doc-code">
+                            <pre><code>scene_setup.hdri_lighting.apply_hdri</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="doc-subsection">
+                        <h3>Command Examples</h3>
+                        
+                        <div class="doc-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Command</th>
+                                        <th>Description</th>
+                                        <th>Parameters</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><code>asset_management.mixamo.import_character</code></td>
+                                        <td>Import a character from Mixamo</td>
+                                        <td><code>character_type</code>: Type of character to import<br><code>name</code>: Name for the imported character</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>scene_setup.hdri_lighting.apply_hdri</code></td>
+                                        <td>Apply an HDRI environment map</td>
+                                        <td><code>hdri_name</code>: Name of the HDRI<br><code>strength</code>: Light strength</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>character_animation.keyframe_generation.generate_animation</code></td>
+                                        <td>Generate animation from text</td>
+                                        <td><code>character_name</code>: Name of the character<br><code>animation_type</code>: Type of animation<br><code>prompt</code>: Text description<br><code>duration</code>: Animation duration</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <p>For a complete list of commands, see the <a href="command_reference.html">full Command Reference</a>.</p>
+                    </div>
+                </section>
+                
+                <!-- API Reference Preview -->
+                <section id="api-reference" class="doc-section">
+                    <h2>API Reference</h2>
+                    <p>For developers who want to extend BlenderMCP Ultimate, this section provides a reference for the Python API.</p>
+                    
+                    <div class="doc-subsection">
+                        <h3>API Structure</h3>
+                        <p>The Blender<response clipped><NOTE>To save on context only part of this file has been shown to you. You should retry this tool after you have searched inside the file with `grep -n` in order to find the line numbers of what you are looking for.</NOTE>

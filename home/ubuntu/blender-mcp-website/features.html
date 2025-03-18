@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - BlenderMCP Ultimate Cinematic Upgrade</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="BlenderMCP Ultimate Logo">
+                <span>BlenderMCP Ultimate</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html" class="active">Features</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Features Hero -->
+        <section class="page-hero">
+            <div class="page-hero-content">
+                <h1>Powerful Features for Cinematic Creation</h1>
+                <p>Explore the comprehensive feature set that makes BlenderMCP Ultimate the most powerful AI-driven cinematic tool for Blender.</p>
+            </div>
+        </section>
+
+        <!-- Feature Navigation -->
+        <section class="feature-navigation">
+            <div class="feature-nav-container">
+                <a href="#scene-setup" class="feature-nav-item">
+                    <i class="fas fa-cube"></i>
+                    <span>Scene Setup</span>
+                </a>
+                <a href="#character-animation" class="feature-nav-item">
+                    <i class="fas fa-running"></i>
+                    <span>Character Animation</span>
+                </a>
+                <a href="#physics-vfx" class="feature-nav-item">
+                    <i class="fas fa-wind"></i>
+                    <span>Physics & VFX</span>
+                </a>
+                <a href="#rendering" class="feature-nav-item">
+                    <i class="fas fa-film"></i>
+                    <span>Rendering</span>
+                </a>
+                <a href="#progress-tracking" class="feature-nav-item">
+                    <i class="fas fa-tasks"></i>
+                    <span>Progress Tracking</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Scene Setup & Asset Importing -->
+        <section id="scene-setup" class="feature-section">
+            <div class="feature-header">
+                <h2>Scene Setup & Asset Importing</h2>
+                <p>Create complete environments and import assets with simple text prompts.</p>
+            </div>
+            
+            <div class="feature-content">
+                <div class="feature-image">
+                    <img src="images/scene-setup.jpg" alt="Scene Setup & Asset Importing">
+                </div>
+                <div class="feature-details">
+                    <div class="feature-item">
+                        <h3>Mixamo Integration</h3>
+                        <p>Seamlessly import and rig characters from Mixamo's extensive library. Choose from hundreds of pre-rigged characters and automatically import them into your Blender scene.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Marketplace Integrations</h3>
+                        <p>Direct importing from Sketchfab, TurboSquid, and Quixel Megascans. Search and import high-quality 3D models, textures, and assets without leaving Blender.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>HDRI Lighting Automation</h3>
+                        <p>Apply lighting automatically based on scene descriptions. Choose from a library of HDRI environments or describe the lighting you want, and let the AI set it up for you.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Procedural Environment Generation</h3>
+                        <p>Generate terrain, architecture, and complete environments from text descriptions. Create mountains, forests, cities, and more with simple prompts.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature-demo">
+                <h3>See It In Action</h3>
+                <div class="demo-video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Scene Setup Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="feature-comparison">
+                <h3>Before & After</h3>
+                <div class="comparison-slider">
+                    <div class="comparison-container">
+                        <img src="images/scene-before.jpg" alt="Before Scene Setup">
+                        <img src="images/scene-after.jpg" alt="After Scene Setup" class="comparison-after">
+                    </div>
+                    <input type="range" min="0" max="100" value="50" class="comparison-slider-input" id="scene-comparison-slider">
+                </div>
+                <p>Drag the slider to see the difference between a basic scene and one created with BlenderMCP Ultimate.</p>
+            </div>
+        </section>
+
+        <!-- Character Animation & Motion Control -->
+        <section id="character-animation" class="feature-section">
+            <div class="feature-header">
+                <h2>Character Animation & Motion Control</h2>
+                <p>Create dynamic character animations and cinematic camera movements with AI assistance.</p>
+            </div>
+            
+            <div class="feature-content">
+                <div class="feature-image">
+                    <img src="images/character-animation.jpg" alt="Character Animation & Motion Control">
+                </div>
+                <div class="feature-details">
+                    <div class="feature-item">
+                        <h3>Rigify Auto-Rigging</h3>
+                        <p>Automatically rig custom characters with Blender's Rigify system. Import any character model and let the AI create a complete rig with proper weight painting.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Animation Retargeting</h3>
+                        <p>Transfer animations between different rigs with intelligent bone mapping. Use animations from Mixamo or other sources on your custom characters.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>IK/FK Switching</h3>
+                        <p>Seamlessly switch between Inverse Kinematics and Forward Kinematics for animation flexibility. Perfect for creating complex character movements.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>AI-Driven Keyframe Generation</h3>
+                        <p>Generate animations from text descriptions. Describe the movement you want, and let the AI create the keyframes for you.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Cinematic Camera Work</h3>
+                        <p>Create dynamic camera movements, tracking shots, and multi-camera setups. Set up depth of field, focus pulls, and other cinematic camera techniques with ease.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature-demo">
+                <h3>See It In Action</h3>
+                <div class="demo-video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Character Animation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="feature-interactive">
+                <h3>Interactive Animation Demo</h3>
+                <div class="interactive-demo" id="animation-interactive-demo">
+                    <!-- Interactive 3D viewer will be initialized with JavaScript -->
+                </div>
+                <div class="interactive-controls">
+                    <button class="demo-btn" data-animation="walk">Walk Cycle</button>
+                    <button class="demo-btn" data-animation="run">Run Cycle</button>
+                    <button class="demo-btn" data-animation="jump">Jump</button>
+                    <button class="demo-btn" data-animation="dance">Dance</button>
+                    <button class="demo-btn" data-animation="fight">Fight</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Physics & VFX Integration -->
+        <section id="physics-vfx" class="feature-section">
+            <div class="feature-header">
+                <h2>Physics & VFX Integration</h2>
+                <p>Add realistic physics simulations and visual effects to your scenes.</p>
+            </div>
+            
+            <div class="feature-content">
+                <div class="feature-image">
+                    <img src="images/physics-vfx.jpg" alt="Physics & VFX Integration">
+                </div>
+                <div class="feature-details">
+                    <div class="feature-item">
+                        <h3>Cloth Physics</h3>
+                        <p>Create realistic cloth simulations with various presets for different materials. Simulate clothing, flags, curtains, and more with accurate physics.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Hair Physics</h3>
+                        <p>Dynamic hair simulation with styling options. Create realistic hair movement with wind and character interaction.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Rigid Body Physics</h3>
+                        <p>Object fracturing and destruction effects. Create realistic destruction sequences with proper physics properties.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Particle Effects</h3>
+                        <p>Smoke, fire, explosions, fog, and weather effects. Add atmospheric elements and dynamic effects to your scenes.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature-demo">
+                <h3>See It In Action</h3>
+                <div class="demo-video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Physics & VFX Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="feature-gallery">
+                <h3>Physics & VFX Gallery</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/cloth-physics.jpg" alt="Cloth Physics">
+                        <div class="gallery-caption">Cloth Physics</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/hair-physics.jpg" alt="Hair Physics">
+                        <div class="gallery-caption">Hair Physics</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/destruction.jpg" alt="Destruction Physics">
+                        <div class="gallery-caption">Destruction Physics</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/fire-smoke.jpg" alt="Fire and Smoke">
+                        <div class="gallery-caption">Fire and Smoke</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/weather.jpg" alt="Weather Effects">
+                        <div class="gallery-caption">Weather Effects</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/explosion.jpg" alt="Explosion Effects">
+                        <div class="gallery-caption">Explosion Effects</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rendering & Post-Processing -->
+        <section id="rendering" class="feature-section">
+            <div class="feature-header">
+                <h2>Rendering & Post-Processing</h2>
+                <p>Create cinematic-quality renders with intelligent optimization and effects.</p>
+            </div>
+            
+            <div class="feature-content">
+                <div class="feature-image">
+                    <img src="images/rendering.jpg" alt="Rendering & Post-Processing">
+                </div>
+                <div class="feature-details">
+                    <div class="feature-item">
+                        <h3>Render Engine Management</h3>
+                        <p>Intelligent switching between Cycles and Eevee based on your rendering goals. Optimize render settings automatically for the best balance of quality and speed.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Post-Processing Effects</h3>
+                        <p>Add motion blur, bloom, color grading, and LUT application. Create cinematic looks with professional-grade post-processing.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Multi-Camera Rendering</h3>
+                        <p>Batch rendering from multiple camera angles. Create complex sequences with different perspectives and compile them automatically.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature-demo">
+                <h3>See It In Action</h3>
+                <div class="demo-video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rendering Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="feature-comparison">
+                <h3>Post-Processing Comparison</h3>
+                <div class="comparison-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="raw">Raw Render</button>
+                        <button class="tab-btn" data-tab="color-grading">Color Grading</button>
+                        <button class="tab-btn" data-tab="motion-blur">Motion Blur</button>
+                        <button class="tab-btn" data-tab="bloom">Bloom</button>
+                        <button class="tab-btn" data-tab="final">Final Result</button>
+                    </div>
+                    <div class="tab-co<response clipped><NOTE>To save on context only part of this file has been shown to you. You should retry this tool after you have searched inside the file with `grep -n` in order to find the line numbers of what you are looking for.</NOTE>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlenderMCP Ultimate Cinematic Upgrade</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="BlenderMCP Ultimate Logo">
+                <span>BlenderMCP Ultimate</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Create Cinematic Sequences with AI</h1>
+                <p>BlenderMCP Ultimate transforms Blender into an AI-driven cinematic tool, enabling you to create high-quality animations through simple text prompts.</p>
+                <div class="cta-buttons">
+                    <a href="download.html" class="btn btn-primary">Download Now</a>
+                    <a href="features.html" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-3d-viewer" id="hero-3d-viewer">
+                    <!-- 3D viewer will be initialized with JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Highlights -->
+        <section class="features-highlight">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Scene Setup & Asset Importing</h3>
+                    <p>Automatically import characters and assets from Mixamo, Sketchfab, TurboSquid, and Quixel Megascans.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Character Animation & Motion Control</h3>
+                    <p>Auto-rigging, animation retargeting, and AI-driven keyframe generation for dynamic character animations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Physics & VFX Integration</h3>
+                    <p>Realistic cloth and hair physics, object destruction, and particle effects for smoke, fire, and weather.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Rendering & Post-Processing</h3>
+                    <p>Intelligent render engine selection, optimization, and comprehensive post-processing effects.</p>
+                </div>
+            </div>
+            <div class="features-cta">
+                <a href="features.html" class="btn btn-tertiary">Explore All Features</a>
+            </div>
+        </section>
+
+        <!-- Demo Section -->
+        <section class="demo-section">
+            <h2>See It In Action</h2>
+            <div class="demo-video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="BlenderMCP Ultimate Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="demo-description">
+                <p>Watch how BlenderMCP Ultimate transforms a simple text prompt into a complete cinematic sequence, handling everything from scene setup to final rendering automatically.</p>
+            </div>
+        </section>
+
+        <!-- Showcase Section -->
+        <section class="showcase">
+            <h2>Created with BlenderMCP Ultimate</h2>
+            <div class="showcase-grid">
+                <div class="showcase-item">
+                    <img src="images/showcase1.jpg" alt="Showcase 1">
+                    <div class="showcase-overlay">
+                        <h3>Dynamic Character Animation</h3>
+                        <p>Created from the prompt: "Character performs parkour across a futuristic city"</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <img src="images/showcase2.jpg" alt="Showcase 2">
+                    <div class="showcase-overlay">
+                        <h3>Environmental Storytelling</h3>
+                        <p>Created from the prompt: "Ancient temple in jungle with mystical fog and sunbeams"</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <img src="images/showcase3.jpg" alt="Showcase 3">
+                    <div class="showcase-overlay">
+                        <h3>Physics Simulation</h3>
+                        <p>Created from the prompt: "Building collapsing with realistic debris and dust"</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <img src="images/showcase4.jpg" alt="Showcase 4">
+                    <div class="showcase-overlay">
+                        <h3>Cinematic Lighting</h3>
+                        <p>Created from the prompt: "Character silhouette against dramatic sunset with lens flare"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <h2>What Users Are Saying</h2>
+            <div class="testimonial-slider" id="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"BlenderMCP Ultimate has completely transformed my workflow. What used to take days now takes minutes, and the results are incredible!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/user1.jpg" alt="User 1">
+                        <div class="author-info">
+                            <h4>Jane Doe</h4>
+                            <p>3D Artist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"As someone new to Blender, this tool has been a game-changer. I can create professional-looking animations without years of experience."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/user2.jpg" alt="User 2">
+                        <div class="author-info">
+                            <h4>John Smith</h4>
+                            <p>Indie Game Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The physics simulations alone are worth the download. I've never seen cloth and hair physics this realistic with such minimal setup time."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/user3.jpg" alt="User 3">
+                        <div class="author-info">
+                            <h4>Alex Johnson</h4>
+                            <p>VFX Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn" id="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn" id="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Getting Started -->
+        <section class="getting-started">
+            <h2>Getting Started is Easy</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Download</h3>
+                    <p>Download the BlenderMCP Ultimate addon from our website or GitHub repository.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Install</h3>
+                    <p>Install the addon in Blender through the Preferences > Add-ons menu.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Create</h3>
+                    <p>Enter your text prompt and let the AI create your cinematic sequence.</p>
+                </div>
+            </div>
+            <div class="getting-started-cta">
+                <a href="tutorials.html" class="btn btn-primary">View Detailed Tutorials</a>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter to receive updates, tutorials, and tips for BlenderMCP Ultimate.</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="BlenderMCP Ultimate Logo">
+                <span>BlenderMCP Ultimate</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="documentation.html">Documentation</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="download.html">Download</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="documentation.html">API Reference</a></li>
+                        <li><a href="tutorials.html">Video Tutorials</a></li>
+                        <li><a href="#">GitHub Repository</a></li>
+                        <li><a href="#">Release Notes</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                        <li><a href="#"><i class="fab fa-discord"></i> Discord</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 BlenderMCP Ultimate. All rights reserved.</p>
+            <p>BlenderMCP Ultimate is not affiliated with Blender Foundation.</p>
+        </div>
+    </footer>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

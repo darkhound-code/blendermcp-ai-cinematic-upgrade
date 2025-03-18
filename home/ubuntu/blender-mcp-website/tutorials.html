@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorials - BlenderMCP Ultimate Cinematic Upgrade</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="BlenderMCP Ultimate Logo">
+                <span>BlenderMCP Ultimate</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="tutorials.html" class="active">Tutorials</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Tutorials Hero -->
+        <section class="page-hero">
+            <div class="page-hero-content">
+                <h1>Tutorials</h1>
+                <p>Learn how to create amazing cinematic sequences with BlenderMCP Ultimate through our step-by-step tutorials.</p>
+            </div>
+        </section>
+
+        <!-- Tutorial Filters -->
+        <section class="tutorial-filters">
+            <div class="filter-container">
+                <div class="filter-group">
+                    <label for="difficulty-filter">Difficulty:</label>
+                    <select id="difficulty-filter">
+                        <option value="all">All Levels</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="category-filter">Category:</label>
+                    <select id="category-filter">
+                        <option value="all">All Categories</option>
+                        <option value="scene-setup">Scene Setup</option>
+                        <option value="character-animation">Character Animation</option>
+                        <option value="physics-vfx">Physics & VFX</option>
+                        <option value="rendering">Rendering</option>
+                        <option value="complete-projects">Complete Projects</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="duration-filter">Duration:</label>
+                    <select id="duration-filter">
+                        <option value="all">Any Length</option>
+                        <option value="short">Short (< 10 min)</option>
+                        <option value="medium">Medium (10-30 min)</option>
+                        <option value="long">Long (> 30 min)</option>
+                    </select>
+                </div>
+                <div class="search-group">
+                    <input type="text" id="tutorial-search" placeholder="Search tutorials...">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Tutorials -->
+        <section class="featured-tutorials">
+            <h2>Featured Tutorials</h2>
+            <div class="featured-tutorials-grid">
+                <div class="featured-tutorial">
+                    <div class="tutorial-thumbnail">
+                        <img src="images/tutorial-featured-1.jpg" alt="Creating Your First Cinematic Sequence">
+                        <span class="tutorial-duration">15:42</span>
+                        <div class="tutorial-difficulty beginner">Beginner</div>
+                    </div>
+                    <div class="tutorial-info">
+                        <h3>Creating Your First Cinematic Sequence</h3>
+                        <p>Learn how to create a complete cinematic sequence from scratch using BlenderMCP Ultimate.</p>
+                        <div class="tutorial-meta">
+                            <span class="tutorial-category">Complete Projects</span>
+                            <span class="tutorial-date">March 15, 2025</span>
+                        </div>
+                        <a href="tutorials/first-cinematic-sequence.html" class="btn btn-tertiary">Watch Tutorial</a>
+                    </div>
+                </div>
+                <div class="featured-tutorial">
+                    <div class="tutorial-thumbnail">
+                        <img src="images/tutorial-featured-2.jpg" alt="Advanced Character Animation">
+                        <span class="tutorial-duration">28:17</span>
+                        <div class="tutorial-difficulty advanced">Advanced</div>
+                    </div>
+                    <div class="tutorial-info">
+                        <h3>Advanced Character Animation Techniques</h3>
+                        <p>Master advanced character animation techniques using the AI-driven keyframe generation system.</p>
+                        <div class="tutorial-meta">
+                            <span class="tutorial-category">Character Animation</span>
+                            <span class="tutorial-date">March 10, 2025</span>
+                        </div>
+                        <a href="tutorials/advanced-character-animation.html" class="btn btn-tertiary">Watch Tutorial</a>
+                    </div>
+                </div>
+                <div class="featured-tutorial">
+                    <div class="tutorial-thumbnail">
+                        <img src="images/tutorial-featured-3.jpg" alt="Realistic Destruction Physics">
+                        <span class="tutorial-duration">22:05</span>
+                        <div class="tutorial-difficulty intermediate">Intermediate</div>
+                    </div>
+                    <div class="tutorial-info">
+                        <h3>Realistic Destruction Physics</h3>
+                        <p>Learn how to create realistic destruction sequences with the physics simulation system.</p>
+                        <div class="tutorial-meta">
+                            <span class="tutorial-category">Physics & VFX</span>
+                            <span class="tutorial-date">March 5, 2025</span>
+                        </div>
+                        <a href="tutorials/destruction-physics.html" class="btn btn-tertiary">Watch Tutorial</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tutorial Categories -->
+        <section class="tutorial-categories">
+            <h2>Tutorial Categories</h2>
+            
+            <!-- Getting Started -->
+            <div class="tutorial-category">
+                <div class="category-header">
+                    <h3>Getting Started</h3>
+                    <p>Essential tutorials for beginners to get started with BlenderMCP Ultimate.</p>
+                </div>
+                <div class="tutorials-grid">
+                    <div class="tutorial-card" data-difficulty="beginner" data-category="getting-started" data-duration="short">
+                        <div class="tutorial-thumbnail">
+                            <img src="images/tutorial-1.jpg" alt="Installation and Setup">
+                            <span class="tutorial-duration">5:23</span>
+                            <div class="tutorial-difficulty beginner">Beginner</div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h4>Installation and Setup</h4>
+                            <p>Learn how to install and set up BlenderMCP Ultimate in Blender.</p>
+                            <a href="tutorials/installation-setup.html" class="btn btn-tertiary">Watch Tutorial</a>
+                        </div>
+                    </div>
+                    <div class="tutorial-card" data-difficulty="beginner" data-category="getting-started" data-duration="short">
+                        <div class="tutorial-thumbnail">
+                            <img src="images/tutorial-2.jpg" alt="User Interface Overview">
+                            <span class="tutorial-duration">8:47</span>
+                            <div class="tutorial-difficulty beginner">Beginner</div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h4>User Interface Overview</h4>
+                            <p>Explore the BlenderMCP Ultimate user interface and learn how to navigate it.</p>
+                            <a href="tutorials/ui-overview.html" class="btn btn-tertiary">Watch Tutorial</a>
+                        </div>
+                    </div>
+                    <div class="tutorial-card" data-difficulty="beginner" data-category="getting-started" data-duration="medium">
+                        <div class="tutorial-thumbnail">
+                            <img src="images/tutorial-3.jpg" alt="Creating Your First Scene">
+                            <span class="tutorial-duration">12:35</span>
+                            <div class="tutorial-difficulty beginner">Beginner</div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h4>Creating Your First Scene</h4>
+                            <p>Learn how to create a simple scene using text prompts and the scene setup tools.</p>
+                            <a href="tutorials/first-scene.html" class="btn btn-tertiary">Watch Tutorial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scene Setup & Assets -->
+            <div class="tutorial-category">
+                <div class="category-header">
+                    <h3>Scene Setup & Assets</h3>
+                    <p>Learn how to create environments and import assets for your cinematic sequences.</p>
+                </div>
+                <div class="tutorials-grid">
+                    <div class="tutorial-card" data-difficulty="beginner" data-category="scene-setup" data-duration="medium">
+                        <div class="tutorial-thumbnail">
+                            <img src="images/tutorial-4.jpg" alt="Importing Characters from Mixamo">
+                            <span class="tutorial-duration">14:22</span>
+                            <div class="tutorial-difficulty beginner">Beginner</div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h4>Importing Characters from Mixamo</h4>
+                            <p>Learn how to import and rig characters from Mixamo's extensive library.</p>
+                            <a href="tutorials/mixamo-characters.html" class="btn btn-tertiary">Watch Tutorial</a>
+                        </div>
+                    </div>
+                    <div class="tutorial-card" data-difficulty="intermediate" data-category="scene-setup" data-duration="medium">
+                        <div class="tutorial-thumbnail">
+                            <img src="images/tutorial-5.jpg" alt="HDRI Lighting Techniques">
+                            <span class="tutorial-duration">18:09</span>
+                            <div class="tutorial-difficulty intermediate">Intermediate</div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h4>HDRI Lighting Techniques</h4>
+                            <p>Master the art of lighting your scenes with HDRI environments and additional lights.</p>
+                            <a href="tutorials/hdri-lighting.html" class="btn btn-tertiary">Watch Tutorial</a>
+                        </div>
+                    </div>
+                    <div class="tutorial-card" data-difficulty="intermediate" data-category="scene-setup" data-duration="long">
+                        <div class="tutorial-thumbnail">
+                            <img src="images/tutorial-6.jpg" alt="Procedural Environment Creation">
+                            <span class="tutorial-duration">32:47</span>
+                            <div class="tutorial-difficulty intermediate">Intermediate</div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h4>Procedural Environment Creation</h4>
+                            <p>Learn how to generate complex environments using the procedural generation tools.</p>
+                            <a href="tutorials/procedural-environments.html" class="btn btn-tertiary">Watch Tutorial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Character Animation -->
+            <div class="tutorial-category">
+                <div class="category-header">
+                    <h3>Character Animation</h3>
+                    <p>Master character animation techniques with AI assistance.</p>
+                </div>
+                <div class="tutorials-grid">
+                    <div class="tutorial-card" data-difficulty="beginner" data-category="character-animation" data-duration="medium">
+                        <div class="tutorial-thumbnail">
+                            <img src="images/tutorial-7.jpg" alt="Auto-Rigging with Rigify">
+                            <span class="tutorial-duration">16:38</span>
+                            <div class="tutorial-difficulty beginner">Beginner</div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h4>Auto-Rigging with Rigify</h4>
+                            <p>Learn how to automatically rig custom characters using the Rigify system.</p>
+                            <a href="tutorials/auto-rigging.html" class="btn btn-tertiary">Watch Tutorial</a>
+                        </div>
+                    </div>
+                    <div class="tutorial-card" data-difficulty="intermediate" data-category="character-animation" data-duration="medium">
+                        <div class="tutorial-thumbnail">
+                            <img src="images/tutorial-8.jpg" alt="Animation Retargeting">
+                            <span class="tutorial-duration">22:15</span>
+                            <div class="tutorial-difficulty intermediate">Intermediate</div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h4>Animation Retargeting</h4>
+                            <p>Learn how to transfer animations between different character rigs.</p>
+                            <a href="tutorials/animation-retargeting.html" class="btn btn-tertiary">Watch Tutorial</a>
+                        </div>
+                    </div>
+                    <div class="tutorial-card" data-difficulty="advanced" data-category="character-animation" data-duration="long">
+                        <div class="tutorial-thumbnail">
+                            <img src="images/tutorial-9.jpg" alt="AI-Driven Keyframe Generation">
+                            <span class="tutorial-duration">35:22</span>
+                            <div class="tutorial-difficulty advanced">Advanced</div>
+                        </div>
+           <response clipped><NOTE>To save on context only part of this file has been shown to you. You should retry this tool after you have searched inside the file with `grep -n` in order to find the line numbers of what you are looking for.</NOTE>
